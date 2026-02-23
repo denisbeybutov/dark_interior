@@ -1,0 +1,54 @@
+.light .top-line {
+    border-color: #e5e5e5;
+}
+
+.light .logo {
+    background-image: url(../assets/logo-light.svg);
+    background-repeat: no-repeat;
+}
+
+.light .main-menu a {
+    color: #777;
+}
+
+.light .main-menu li.active a {
+    color: var(--body-color);
+}
+
+.light .icon-font-light::before {
+    content: '\E802';
+}
+
+.head-slider__style {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.head-slider__header {
+    font-size: 80px;
+    font-weight: 300;
+    line-height: 5rem;
+    letter-spacing: 4px;
+    margin-left: -6px;
+}
+
+.head-slider__left {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 55px;
+}
+
+/* .head-slider {
+    height: 100vh;
+} */
+
+/* .head-slider .swiper-slide {
+
+} */
+/* 
+.head-slider__image {
+    height: 100%;
+} */
